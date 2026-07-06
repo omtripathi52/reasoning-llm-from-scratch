@@ -134,16 +134,13 @@ Answer: 15
 
 ## References
 
-- DeepSeek-R1
-- Qwen3
-- GRPO
-- Sebastian Raschka — *Build a Reasoning Model (From Scratch)*
+This project was built for educational purposes while studying modern reasoning language models.
 
 ---
 
 ## Acknowledgements
 
-This implementation was developed while studying **Build a Reasoning Model (From Scratch)** by **Sebastian Raschka**. The repository reorganizes the implementation into a standalone project with its own documentation and project structure.
+A PyTorch implementation exploring modern techniques for improving the reasoning capabilities of large language models.
 
 ---
 
