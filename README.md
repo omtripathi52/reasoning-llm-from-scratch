@@ -2,7 +2,7 @@
 
 # 🧠 Reasoning LLM From Scratch
 
-### Modern Reasoning Techniques for Large Language Models in PyTorch
+### Modern Reasoning Techniques for Large Language Models in Jupyter Notebooks
 
 <p align="center">
 
@@ -13,7 +13,7 @@
 
 </p>
 
-An educational implementation exploring modern techniques for improving the reasoning capabilities of large language models, covering evaluation, inference-time scaling, self-refinement, reinforcement learning, and knowledge distillation.
+An educational notebook series exploring modern techniques for improving the reasoning capabilities of large language models, covering evaluation, inference-time scaling, self-refinement, reinforcement learning, and knowledge distillation.
 
 </div>
 
@@ -23,7 +23,7 @@ An educational implementation exploring modern techniques for improving the reas
 
 This repository explores a collection of practical techniques used to improve reasoning performance in modern language models.
 
-The implementation progresses from pretrained model inference and evaluation to advanced reasoning methods such as inference-time scaling, reinforcement learning, and knowledge distillation, with each script focusing on a specific stage of the reasoning pipeline.
+The implementation progresses from pretrained model inference and evaluation to advanced reasoning methods such as inference-time scaling, reinforcement learning, and knowledge distillation, with each notebook focusing on a specific stage of the reasoning pipeline.
 
 ---
 
@@ -41,15 +41,15 @@ The implementation progresses from pretrained model inference and evaluation to 
 
 ## 📂 Repository Structure
 
-| Script | Description |
+| Notebook | Description |
 |---------|-------------|
-| `01-generating_text_with_a_pretrained_llm.py` | Text generation using a pretrained language model |
-| `02-evaluating_reasoning_models.py` | Reasoning evaluation and answer analysis |
-| `03-improving_reasoning_with_inference_time_scaling.py` | Inference-time scaling strategies |
-| `04-inference_time_scaling_via_self_refinement.py` | Iterative self-refinement techniques |
-| `05-training_reasoning_models_with_reinforcement_learning.py` | Reinforcement learning for reasoning models |
-| `06-improving_grpo_for_reinforcement_learning.py` | GRPO optimization techniques |
-| `07-distilling_reasoning_models_for_efficient_reasoning.py` | Knowledge distillation for efficient reasoning models |
+| `01-generating_text_with_a_pretrained_llm.ipynb` | Text generation using a pretrained language model |
+| `02-evaluating_reasoning_models.ipynb` | Reasoning evaluation and answer analysis |
+| `03-improving_reasoning_with_inference_time_scaling.ipynb` | Inference-time scaling strategies |
+| `04-inference_time_scaling_via_self_refinement.ipynb` | Iterative self-refinement techniques |
+| `05-training_reasoning_models_with_reinforcement_learning.ipynb` | Reinforcement learning for reasoning models |
+| `06-improving_grpo_for_reinforcement_learning.ipynb` | GRPO optimization techniques |
+| `07-distilling_reasoning_models_for_efficient_reasoning.ipynb` | Knowledge distillation for efficient reasoning models |
 
 ---
 
@@ -84,25 +84,13 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-Run the scripts sequentially to explore the complete reasoning pipeline.
+Launch Jupyter and open the notebooks sequentially to explore the complete reasoning pipeline.
 
 ```bash
-python 01-generating_text_with_a_pretrained_llm.py
-
-python 02-evaluating_reasoning_models.py
-
-python 03-improving_reasoning_with_inference_time_scaling.py
-
-python 04-inference_time_scaling_via_self_refinement.py
-
-python 05-training_reasoning_models_with_reinforcement_learning.py
-
-python 06-improving_grpo_for_reinforcement_learning.py
-
-python 07-distilling_reasoning_models_for_efficient_reasoning.py
+jupyter lab
 ```
 
-Each script can also be executed independently to explore a specific reasoning technique.
+Each notebook can also be executed independently to explore a specific reasoning technique.
 
 ---
 
